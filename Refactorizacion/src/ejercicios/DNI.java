@@ -1,7 +1,11 @@
 package ejercicios;
 
-public class DNI {
-	public static void main(String[] args) {
+public class DNI
+{
+	public static void main(String[] args) 
+	{
+		//Cambio COMMIT
+		
 		String l = "TRWAGMYFPDXBNJZSQVHLCKE";
 		int n = 12345678;
 		char letra = l.charAt(n % 23);
